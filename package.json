@@ -1,0 +1,22 @@
+{
+  "name": "robot-wiki",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "SinisterDev",
+    "email": "thesinisterdev@gmail.com"
+  },
+  "repository": "/robot-wiki",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^3.1.1"
+  }
+}
