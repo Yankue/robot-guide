@@ -9,6 +9,9 @@ const config = {
 	theme: 'yuu',
 
 	head: [
+		['meta', { charset: 'utf-8' }],
+		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+		['link', { rel: 'icon', href: '/favicon.png' }],
 		['meta', { name: 'theme-color', content: '#3498db' }],
 		['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
 		['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -16,7 +19,7 @@ const config = {
 		['meta', { property: 'og:description', content: 'Official Robot guide maintained by the Robot Staff Team' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
-		['meta', { property: 'og:image', content: '/meta-image.png' }]
+		['meta', { property: 'og:image', content: 'meta-image.png' }]
 	],
 
 	themeConfig: {
@@ -28,9 +31,13 @@ const config = {
 		repo: 'SinisterDeveloper/robot-wiki',
 		editLinks: false,
 		docsDir: 'guide',
-		editLinks: true,
-		lastUpdated: false,
+		editLinks: false,
+		lastUpdated: true,
 		nav: [
+			{
+				text: 'Invite',
+				link: 'https://discord.com/oauth2/authorize?client_id=832239654304481312&scope=bot&permissions=8'
+			},
 			{
 				text: 'Support Server',
 				link: 'https://discordrobot.tech/support'
