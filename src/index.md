@@ -1,15 +1,8 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: meta-image.webp
 tagline: 
-actionText: Quick Start →
+actionText: Get Started
 actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by SinisterDev with ❤️
+footer: Official Robot guide maintained by the Robot Staff Team with ❤️
 ---
