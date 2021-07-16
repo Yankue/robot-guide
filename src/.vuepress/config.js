@@ -37,7 +37,7 @@ const config = {
 		nav: [
 			{
 				text: 'Premium',
-				link: 'guide/other/premium'
+				link: 'guide/other/premium.md'
 			},
 			{
 				text: 'Invite',
@@ -54,7 +54,7 @@ const config = {
 					title: 'Home',
 					children: [
 						'',
-						'using-vue',
+						'more-content',
 					]
 				}
 			],
@@ -62,8 +62,8 @@ const config = {
 	},
 
 	plugins: [
-		'@vuepress/plugin-back-to-top',
-		'@vuepress/plugin-medium-zoom',
+		// '@vuepress/plugin-back-to-top',
+		// '@vuepress/plugin-medium-zoom',
 	]
 }
 
