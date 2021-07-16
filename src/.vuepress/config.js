@@ -19,11 +19,12 @@ const config = {
 		['meta', { property: 'og:description', content: 'Official Robot guide maintained by the Robot Staff Team' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
-		['meta', { property: 'og:image', content: 'meta-image.png' }]
+		['meta', { property: 'og:image', content: '/meta-image.png' }]
 	],
 
 	themeConfig: {
 		yuu: {
+			logo: 'GuideLogo',
 			defaultDarkTheme: true,
 			colorThemes: ['blue', 'green'],
 			defaultColorTheme: 'blue',
@@ -34,6 +35,10 @@ const config = {
 		editLinks: false,
 		lastUpdated: true,
 		nav: [
+			{
+				text: 'Premium',
+				link: 'guide/other/premium'
+			},
 			{
 				text: 'Invite',
 				link: 'https://discord.com/oauth2/authorize?client_id=832239654304481312&scope=bot&permissions=8'
