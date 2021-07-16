@@ -1,9 +1,9 @@
 const { description } = require('../../package.json');
 
 const config = {
-	
+
 	title: 'RoBot Guide',
-	
+
 	description: description,
 
 	theme: 'yuu',
@@ -31,6 +31,7 @@ const config = {
 		},
 		repo: 'SinisterDeveloper/robot-wiki',
 		editLinks: false,
+		searchMaxSuggestions: 5,
 		docsDir: 'guide',
 		editLinks: false,
 		lastUpdated: true,
@@ -57,16 +58,22 @@ const config = {
 						'more-content',
 					]
 				},
-				// {
-				// 	title: 'Getting Started',
-				// 	children: [
-				// 		''
-				// 	]
-				// }
+				{
+					title: 'Getting Started',
+					children: [
+						'/core-setup/'
+					]
+				}
 			],
 		}
 	},
-
+	configureWebpack: {
+		resolve: {
+			alias: {
+				'@': '../',
+			},
+		},
+	},
 	plugins: []
 }
 
@@ -76,6 +83,15 @@ for (const group of Object.values(config.themeConfig.sidebar)) {
 		section.collapsable = false;
 	}
 }
+
+// for (const group of Object.values(config.themeConfig.sidebar)) {
+// 	for (const section of group) {
+// 		if (section.title !== "Introduction") continue;
+// 		section.children.forEach(str => {
+// 			str = `/guide/${str}`
+// 		});
+// 	}
+// }
 
 
 module.exports = config;

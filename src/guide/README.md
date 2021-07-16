@@ -19,6 +19,6 @@ The new version of RoBot's tag is **RoBot#4428** and it should look something li
 
 ![Picture-of-New-Robot](./assets/newRobot.png)
 
-If you haven't invited Robot to your server yet, use [this link](https://discord.com/oauth2/authorize?client_id=832239654304481312&scope=bot&permissions=8) to invite it!
+If you haven't invited the new Robot to your server yet, use [this link](https://discord.com/oauth2/authorize?client_id=832239654304481312&scope=bot&permissions=8) to invite it, as both Robots are linked to the same database, you wont lose any progress or settings, if you have both robots in the same server, only the new Robot will reply to your commands. Sounds good? Great!
 
 Make sure to grab your popcorn(jk) and lets start right away!
