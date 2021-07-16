@@ -37,7 +37,7 @@ const config = {
 		nav: [
 			{
 				text: 'Premium',
-				link: 'guide/other/premium.md'
+				link: 'other/premium.md'
 			},
 			{
 				text: 'Invite',
@@ -51,20 +51,23 @@ const config = {
 		sidebar: {
 			'/guide/': [
 				{
-					title: 'Home',
+					title: 'Introduction',
 					children: [
 						'',
 						'more-content',
 					]
-				}
+				},
+				// {
+				// 	title: 'Getting Started',
+				// 	children: [
+				// 		''
+				// 	]
+				// }
 			],
 		}
 	},
 
-	plugins: [
-		// '@vuepress/plugin-back-to-top',
-		// '@vuepress/plugin-medium-zoom',
-	]
+	plugins: []
 }
 
 for (const group of Object.values(config.themeConfig.sidebar)) {
