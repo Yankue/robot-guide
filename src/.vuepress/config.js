@@ -32,8 +32,10 @@ const config = {
 		repo: 'SinisterDeveloper/robot-wiki',
 		editLinks: false,
 		searchMaxSuggestions: 5,
+		smoothScroll: true,
 		docsDir: 'guide',
 		editLinks: false,
+		sidebarDepth: 3,
 		lastUpdated: true,
 		nav: [
 			{
@@ -61,7 +63,7 @@ const config = {
 				{
 					title: 'Getting Started',
 					children: [
-						'/core-setup/'
+						'/guide/core-setup/'
 					]
 				}
 			],
@@ -74,7 +76,12 @@ const config = {
 			},
 		},
 	},
-	plugins: []
+	plugins: [
+		['vuepress-plugin-loading-overlay', {
+			loader: 'dots',
+			timeout: 500,
+		}]
+	]
 }
 
 for (const group of Object.values(config.themeConfig.sidebar)) {
@@ -84,14 +91,13 @@ for (const group of Object.values(config.themeConfig.sidebar)) {
 	}
 }
 
-// for (const group of Object.values(config.themeConfig.sidebar)) {
-// 	for (const section of group) {
-// 		if (section.title !== "Introduction") continue;
-// 		section.children.forEach(str => {
-// 			str = `/guide/${str}`
-// 		});
-// 	}
-// }
+if (process.env.NODE_ENV === 'production') {
+	config.themeConfig.algolia = {
+		apiKey: '2beecf2061d1b4b5f47593b7f790b3e9',
+		indexName: 'robot',
+	};
 
+	config.plugins.push(['@vuepress/google-analytics', { ga: 'G-TNE4RT1QVL' }]);
+}
 
 module.exports = config;

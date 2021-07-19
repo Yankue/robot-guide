@@ -1,3 +1,5 @@
 # Core setup
 
-testing
+Now we are into the exciting parts of the guide!
+
+<!-- todo>

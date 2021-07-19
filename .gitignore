@@ -15,6 +15,7 @@ basement_dist
 .idea
 .vs
 .vscode
+.env
 
 
 # Temporary
