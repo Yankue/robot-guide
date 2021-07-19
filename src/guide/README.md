@@ -5,6 +5,7 @@ Hello there! Welcome to the official guide for using RoBot, an amazing multipurp
 * Ticket system
 * Custom commands
 * Moderation
+* Custom permissions for commands
 
 and more..!
 
