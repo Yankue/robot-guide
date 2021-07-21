@@ -40,7 +40,7 @@ const config = {
 		nav: [
 			{
 				text: 'Premium',
-				link: 'other/premium.md'
+				link: 'guide/other/premium.md'
 			},
 			{
 				text: 'Invite',
@@ -65,6 +65,13 @@ const config = {
 					children: [
 						'/guide/core-setup/'
 					]
+				},
+				{
+					title: 'Posting',
+					children: [
+						'/guide/posting/',
+						'/guide/posting/plugins'
+					]
 				}
 			],
 		}
@@ -76,12 +83,7 @@ const config = {
 			},
 		},
 	},
-	plugins: [
-		['vuepress-plugin-loading-overlay', {
-			loader: 'dots',
-			timeout: 500,
-		}]
-	]
+	plugins: []
 }
 
 for (const group of Object.values(config.themeConfig.sidebar)) {
