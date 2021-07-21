@@ -31,7 +31,7 @@
 	},
 	"dependencies": {
 		"@vuepress/plugin-google-analytics": "^1.8.2",
-		"vue-discord-message": "^5.0.3",
+		"vue-discord-message": "5.0.2",
 		"vuepress-theme-yuu": "^3.1.1"
 	}
 }
