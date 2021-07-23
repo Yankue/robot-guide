@@ -5,6 +5,7 @@ export default ({ Vue }) => {
         avatars: {
             robot: require('./assets/robot-pfp.png'),
             sinister: require('./assets/sinister-pfp.png'),
+            yankue: require('./assets/yankue-pfp.png'),
         },
         profiles: {
             sinister: {
@@ -16,6 +17,10 @@ export default ({ Vue }) => {
                 avatar: 'robot',
                 bot: true,
             },
+            yankue: {
+                author: 'Yankue',
+                avatar: 'yankue'
+            }
         },
     });
 };

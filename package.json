@@ -24,7 +24,7 @@
 		"wiki"
 	],
 	"contributors": [
-		"Yankue"
+		"Yankue <yankuedevco@gmail.com>"
 	],
 	"devDependencies": {
 		"vuepress": "^1.5.3"

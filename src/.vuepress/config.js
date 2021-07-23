@@ -70,7 +70,7 @@ const config = {
 					title: 'Posting',
 					children: [
 						'/guide/posting/',
-						'/guide/posting/plugins'
+						'/guide/posting/plugins',
 					]
 				}
 			],
@@ -94,11 +94,6 @@ for (const group of Object.values(config.themeConfig.sidebar)) {
 }
 
 if (process.env.NODE_ENV === 'production') {
-	config.themeConfig.algolia = {
-		apiKey: '2beecf2061d1b4b5f47593b7f790b3e9',
-		indexName: 'robot',
-	};
-
 	config.plugins.push(['@vuepress/google-analytics', { ga: 'G-TNE4RT1QVL' }]);
 }
 
