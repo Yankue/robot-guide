@@ -1,6 +1,6 @@
 # Introduction
 
-Hello there! Welcome to the official guide for using RoBot, an amazing multipurpose and powerful Discord bot offers a wide variety of features, from posts to tags, from moderation to tickets, in this guide you will learn everything regarding usage of Robot such as and not limited to:
+Hello there! Welcome to the official guide for using RoBot, an amazing multipurpose and powerful Discord bot offering a wide variety of features, from posts to tags, from moderation to tickets, in this guide you will learn everything regarding usage of Robot such as and not limited to:
 * Posting system
 * Ticket system
 * Custom commands

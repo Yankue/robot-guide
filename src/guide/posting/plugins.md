@@ -35,3 +35,46 @@ If all done correctly, RoBot will reply asking you to state the Id of the role(s
 When setting up permissions, to work with the `@everyone` role, send the server's Id.
 :::
 
+## Fields
+
+RoBot will now ask the number of fields(questions) the post category should have. Reply with the number of fields you want to include for the category.
+
+For each question, RoBot will ask what the question is, and a tip for that question. Add useful tips that explain what the question means, how much to write, and an example answer. **Repeat the process for every question**.
+
+
+<div is="discord-messages">
+	<discord-message profile="robot">
+		How many fields do you want in this category?
+	</discord-message>
+	<discord-message profile="yankue">
+		1
+	</discord-message>
+    <discord-message profile="robot">
+        What should be the question for field #1?
+    </discord-message>
+	<discord-message profile="yankue">
+		Suggestion
+	</discord-message>
+    <discord-message profile="robot">
+        What should be the tips for field #1?
+    </discord-message>
+    <discord-message profile="yankue">
+		What's your suggestion and how does it benefit RoBot users?
+	</discord-message>
+</div>
+
+Example field(question) when someone attempts to post:
+
+<div is="discord-messages">
+<discord-message profile="robot">
+	<discord-embed slot="embeds" color="#0099ff" title="Field #1">
+		<embed-field title="Suggestion">
+			What's your suggestion and how does it benefit RoBot users?
+		</embed-field>
+	</discord-embed>
+</discord-message>
+</div>
+
+## Approval
+
+yet to do...
