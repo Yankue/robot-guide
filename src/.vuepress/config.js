@@ -94,7 +94,7 @@ for (const group of Object.values(config.themeConfig.sidebar)) {
 }
 
 if (process.env.NODE_ENV === 'production') {
-	config.plugins.push(['@vuepress/google-analytics', { ga: 'G-TNE4RT1QVL' }]);
+	config.plugins.push(['@vuepress/google-analytics', { ga: 'G-BMC1K2M9Z7' }]);
 }
 
 module.exports = config;
