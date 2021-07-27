@@ -77,4 +77,14 @@ Example field(question) when someone attempts to post:
 
 ## Approval
 
-yet to do...
+Usually, when a user posts, you might want the post to get approved by a Staff or helper before the post getting sent to the main channel. That's where RoBot's approval plugin comes into place. If a user posts in a category where approval plugin is enabled, the post will first be sent to the channel you specify, where a staff may approve the post using the `approve` command.
+
+When RoBot asks you if you would like to add any plugins(and if you wish to add the approval feature for your post category), reply with `approval`, else reply with `done` to finish setting up your Post Category.
+
+RoBot will then ask you which channel the post will be sent in, to get approved by the staff. Send the Channel ID of the channel.
+
+![ApprovalExample](./images/approval.png)
+
+## Finishing Up
+
+Congratulations! You have successfully created a Post Category in your server 🎉 Read on to learn about approving/denying posts and some other cool features.
