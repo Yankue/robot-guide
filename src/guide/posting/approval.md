@@ -29,3 +29,7 @@ A post appover has the ability to delete posts regardless of the post's approval
 ```
 >delete <post-id> <reason [optional]>
 ```
+
+## Finishing Up
+
+Now that you know how post approval works, you can read on to learn more about the other Posting features RoBot offers, good luck!

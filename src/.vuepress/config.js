@@ -71,7 +71,8 @@ const config = {
 					children: [
 						'/guide/posting/',
 						'/guide/posting/plugins',
-						'/guide/posting/approval'
+						'/guide/posting/approval',
+						'/guide/posting/extras'
 					]
 				}
 			],
