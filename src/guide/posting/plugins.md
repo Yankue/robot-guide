@@ -9,6 +9,8 @@ There may be times where you want to configure the Posting system so a user with
 
 Keep in mind this feature is optional, you may allow everyone to post in the category, however we recommend you make use of this feature.
 
+You can always change or reset permissions later on, read on to learn how...
+
 ### Blacklist
 
 Once you have enabled/disabled the Post Category as mentioned in the last page, RoBot should reply asking you to state the Id of the role(s) which should be blacklisted. If you don't want to set a blacklisted role, reply with `none`. If you do want to setup a Blacklist, reply with ID of the Role. If you want to blacklist multiple roles, reply with the Ids separated with a space.

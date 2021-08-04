@@ -52,3 +52,7 @@ RoBot will then ask if the Post Category should be enabled, reply with `y` unles
 ### Moving on
 
 Congratulations, you are halfway done in creating your first Post Category! Move on to the Plugins page where you finish creating the Post Category 🎉
+
+::: tip
+If you want to delete a post category, run `>post_config delete <category>` to do so!
+:::
