@@ -8,7 +8,7 @@ const config = {
 
 	theme: 'yuu',
 
-	base: 'https://idyllic-axolotl-562859.netlify.app/',
+	base: '/guide',
 
 	head: [
 		['meta', { charset: 'utf-8' }],
