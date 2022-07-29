@@ -8,7 +8,7 @@ const config = {
 
 	theme: 'yuu',
 
-	base: '/guide',
+	base: '/',
 
 	head: [
 		['meta', { charset: 'utf-8' }],
