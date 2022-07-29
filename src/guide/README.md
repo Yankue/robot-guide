@@ -20,6 +20,14 @@ The new version of RoBot's tag is **RoBot#4428** and it should look something li
 
 ![Picture-of-New-Robot](./assets/newRobot.png)
 
-If you haven't invited the new Robot to your server yet, use [this link](https://discord.com/oauth2/authorize?client_id=832239654304481312&scope=bot&permissions=8) to invite it, as both Robots are linked to the same database, you wont lose any progress or settings, if you have both robots in the same server, only the new Robot will reply to your commands. Sounds good? Great!
+If you haven't invited the new Robot to your server yet, use [this link](https://discord.com/oauth2/authorize?client_id=832239654304481312&scope=applications.commands%20bot&permissions=8) to invite it, as both Robots are linked to the same database, you wont lose any progress or settings, if you have both robots in the same server, only the new Robot will reply to your commands. Sounds good? Great!
+
+## Copying IDs
+::: warning
+RoBot refers to IDs a lot, and if you do not have developer mode on you will not get very far!
+:::
+Everything in Discord, such as users, channels, messages, emojis, servers, has an ID, an 18-digit number. These numbers make it incredibly 
+easy for bots to reference Discord objects, which is why we use them.
+**You must turn on Developer Mode** by going to settings -> advanced -> developer mode. Then, when you right click basically anything, you will see a new option of "copy ID". This is what we want!
 
 Make sure to grab your popcorn(jk) and lets start right away!

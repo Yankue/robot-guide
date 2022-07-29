@@ -8,6 +8,8 @@ const config = {
 
 	theme: 'yuu',
 
+	base: 'https://idyllic-axolotl-562859.netlify.app/',
+
 	head: [
 		['meta', { charset: 'utf-8' }],
 		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
@@ -40,15 +42,15 @@ const config = {
 		nav: [
 			{
 				text: 'Premium',
-				link: 'guide/other/premium.md'
+				link: 'guide/premium'
 			},
 			{
 				text: 'Invite',
-				link: 'https://discord.com/oauth2/authorize?client_id=832239654304481312&scope=bot&permissions=8'
+				link: 'https://discord.com/oauth2/authorize?client_id=832239654304481312&scope=applications.commands%20bot&permissions=8'
 			},
 			{
 				text: 'Support Server',
-				link: 'https://discordrobot.tech/support'
+				link: 'https://robotdiscord.ga/support'
 			},
 		],
 		sidebar: {
@@ -58,6 +60,8 @@ const config = {
 					children: [
 						'',
 						'more-content',
+						'bugs',
+						'premium'
 					]
 				},
 				{
@@ -73,6 +77,38 @@ const config = {
 						'/guide/posting/plugins',
 						'/guide/posting/approval',
 						'/guide/posting/extras'
+					]
+				},
+				{
+					title: 'Tickets',
+					children: [
+						'/guide/tickets/'
+					]
+				},
+				{
+					title: 'Ranking',
+					children: [
+						'/guide/ranking/'
+					]
+				},
+				{
+					title: 'Moderation',
+					children: [
+						'/guide/moderation/',
+						'/guide/moderation/managing-infractions'
+					]
+				},
+				{
+					title: 'Custom Commands',
+					children: [
+						'/guide/custom-commands/',
+						'/guide/custom-commands/variables'
+					]
+				},
+				{
+					title: 'Other Features',
+					children: [
+						'/guide/other-features/starboard'
 					]
 				}
 			],

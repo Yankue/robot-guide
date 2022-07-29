@@ -7,14 +7,14 @@ Posting is the most widely used feature of RoBot, a feature that makes it stand 
 The first step to create a post category/option is to run the command:
 
 ```
->post_config add
+/config posting
 ```
 
-Make sure you have your DMs open, or else RoBot will not be able to DM you.
+Make sure you have your DMs open, or else RoBot will not be able to DM you. You need the manage server permission to use the `/config` command.
 
 ### Name
-  
-Once you run the above command, RoBot will DM you asking the name for the post category you are creating. The name is what users identify it by when they run the `>post` command, so make it simple and descriptive.
+
+Once you run the above command, RoBot will DM you asking the name for the post category you are creating. The name is what users identify it by when they run the `/post` command, so make it simple and descriptive.
 
 ### Cooldown
 
@@ -45,7 +45,7 @@ How to copy a Channel ID: Go into Discord settings > Advanced, turn on Developer
 
 ### Anonymous Mode
 
-RoBot then asks if the Post Author's name should be anonymous and if it should be enabled. Anonymous mode will prevent the Post-Author's name from showing up in the post, it can be used for votes and polls, but generally we wouldn't really recommend anonymous mode. Answer with `y` if you want it enabled.
+RoBot then asks if the Post Author's name should be anonymous and if it should be enabled. Anonymous mode will prevent the Post-Author's name from showing up in the post, it can be used for votes and polls, but generally we wouldn't really recommend anonymous mode. Answer with `y` if you want it enabled, or `n` if you want it disabled.
 
 RoBot will then ask if the Post Category should be enabled, reply with `y` unless you want to create a Post Category but not actually let users post in it. You can always change this setting later.
 

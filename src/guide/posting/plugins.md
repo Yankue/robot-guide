@@ -23,7 +23,7 @@ How to copy a Role ID: Go into Discord settings > Advanced, turn on Developer Mo
 
 ### Whitelist
 
-RoBot should now ask you to state the Id of the role(s) which should be whitelisted. If you don't want to set a whitelisted role, reply with `none`. If you do want to setup a Whitelisted role, reply with ID of the Role. If you want to whitelist multiple roles, reply with the Ids separated with a space as you had done above.
+RoBot should now ask you to state the Id of the role(s) which should be whitelisted. If you don't want to set a whitelisted role, reply with `none`. If you do want to setup a Whitelisted role, reply with ID of the Role. If you want to whitelist multiple roles, reply with the Ids separated with a space as you had done above. To add the @everyone role, send the ID of your server.
 
 ::: warning
 If you don't setup a whitelisted role, greylists won't be affective as members with greylisted role won't be able to post without a Whitelisted Role
@@ -69,7 +69,7 @@ Example field(question) when someone attempts to post:
 
 <div is="discord-messages">
 <discord-message profile="robot">
-	<discord-embed slot="embeds" color="#0099ff" title="Field #1">
+	<discord-embed slot="embeds" color="#0064FF" title="Field #1">
 		<embed-field title="Suggestion">
 			What's your suggestion and how does it benefit RoBot users?
 		</embed-field>
