@@ -29,7 +29,6 @@ const config = {
 			colorThemes: ['blue', 'green'],
 			defaultColorTheme: 'blue',
 		},
-		repo: 'SinisterDeveloper/robot-wiki',
 		editLinks: false,
 		searchMaxSuggestions: 5,
 		smoothScroll: true,
@@ -39,8 +38,12 @@ const config = {
 		lastUpdated: true,
 		nav: [
 			{
+				text: 'Changelog',
+				link: '/changelog/'
+			},
+			{
 				text: 'Premium',
-				link: 'guide/premium'
+				link: '/guide/premium'
 			},
 			{
 				text: 'Invite',
@@ -100,7 +103,10 @@ const config = {
 					title: 'Custom Commands',
 					children: [
 						'/guide/custom-commands/',
-						'/guide/custom-commands/variables'
+						'/guide/custom-commands/arguments',
+						'/guide/custom-commands/listeners',
+						'/guide/custom-commands/variables',
+						'/guide/custom-commands/examples'
 					]
 				},
 				{

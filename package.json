@@ -3,17 +3,13 @@
 	"version": "0.0.1",
 	"description": "Official Robot guide maintained by the Robot Staff Team",
 	"main": "index.js",
-	"authors": {
-		"name": "SinisterDev",
-		"email": "thesinisterdev@gmail.com"
-	},
-	"repository": "https://github.com/SinisterDeveloper/robot-wiki.git",
+	"repository": "https://github.com/Yankue/robot-guide.git",
 	"scripts": {
 		"dev": "vuepress dev src",
 		"build": "vuepress build src"
 	},
 	"bugs": {
-		"url": "https://github.com/SinisterDeveloper/robot-wiki/issues"
+		"url": "https://github.com/Yankue/robot-guide/issues"
 	},
 	"license": "MIT",
 	"keywords": [

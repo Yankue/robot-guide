@@ -6,7 +6,7 @@ different contexts.
 ## Creating a Category
 To begin the process of creating a post category, please run:
 ```
->ticket_config add
+/config tickets
 ```
 whilst making sure your DMs are open, and RoBot will DM you to begin a prompt to create the category!
 

@@ -8,14 +8,14 @@ RoBot is a powerful bot which offers a wide variety of features, from posts to t
 
 ## Contributing
 
-If you're interested in contributing to the guide, you should check out [open issues](https://github.com/SinisterDeveloper/robot-wiki/issues), take a good look in the guide and make sure what you are wanting to add isn't already there. **We use Yarn for the project instead of NPM so make sure you have it installed**.
+If you're interested in contributing to the guide, you should check out [open issues](https://github.com/Yankue/robot-guide/issues), take a good look in the guide and make sure what you are wanting to add isn't already there. **We use Yarn for the project instead of NPM so make sure you have it installed**.
 
 ### Contribution Setup
 
 Clone the repository into your desired folder, `cd` into it, and install the dependencies.
 
 ```bash
-git clone https://github.com/SinisterDeveloper/robot-wiki.git
+git clone https://github.com/Yankue/robot-guide.git
 cd robot-wiki
 yarn install
 ```
