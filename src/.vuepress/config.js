@@ -108,12 +108,6 @@ const config = {
 						'/guide/custom-commands/variables',
 						'/guide/custom-commands/examples'
 					]
-				},
-				{
-					title: 'Other Features',
-					children: [
-						'/guide/other-features/starboard'
-					]
 				}
 			],
 		}
